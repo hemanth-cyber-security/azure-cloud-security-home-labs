@@ -1,6 +1,6 @@
 #lab01 secure azure vm
 
-objective
+##objective
 
 create vm
 configure nsg
@@ -8,7 +8,7 @@ restrict ssh from unkown ip -accept only from my ip
 
 ----------
 
-steps performed
+##steps performed
 
 created a Resource group - named -RG-securitylab
 
@@ -27,7 +27,7 @@ tried to login from other network -denied .
 
 
 
-security practice
+##security practice
 
 network level -- leasr priviledge 
 restricted inbound traffic from other network 
