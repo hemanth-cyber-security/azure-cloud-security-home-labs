@@ -1,38 +1,43 @@
-# lab01 secure azure vm
+# Lab 01 – Secure Azure VM
 
-## objective
+## Objective
 
-* create vm 
-* configure nsg
-* restrict ssh from unkown ip -accept only from my ip
+* Create a virtual machine in Azure
+* Configure a Network Security Group (NSG)
+* Restrict SSH access so that only my IP can connect
 
-----------
+---
 
-## steps performed
+## Steps Performed
 
-created a Resource group - named -RG-securitylab
+* Created a Resource Group named **RG-securitylab**
 
-* created vNet - vnet-lab
-*Nsubnet
+* Created a Virtual Network (**vnet-lab**) with a subnet
 
-deployed vm of linux based -attached nsg and vnet 
+* Deployed a Linux virtual machine and attached it to the VNet and NSG
 
-NSG  -in nsg configured inbound rule to ssh from my public ip
-     denied all other inbound traffic.
+* Configured NSG inbound rule:
 
+  * Allowed SSH (port 22) only from my public IP
+  * Denied all other inbound traffic
 
+---
 
-* verified the ssh access from my ip - success
-* tried to login from other network -denied .
+## Validation
 
+* Verified SSH access from my IP → **Success**
+* Attempted access from a different network → **Blocked**
 
+---
 
-## security practice
+## Security Practices Applied
 
-* network level -- least priviledge 
-* restricted inbound traffic from other network 
-* avoided exposing the vm to public internet
+* Applied **least privilege at the network level**
+* Restricted inbound access to a trusted IP only
+* Reduced exposure of the VM to the public internet
 
+---
 
+## Notes
 
-
+This lab helped me understand how easily a VM can be exposed if NSG rules are not configured properly, and why restricting access is critical in cloud environments.
