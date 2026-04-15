@@ -29,7 +29,7 @@ tried to login from other network -denied .
 
 ##security practice
 
-network level -- leasr priviledge 
+network level -- least priviledge 
 restricted inbound traffic from other network 
 avoided exposing the vm to public internet
 
