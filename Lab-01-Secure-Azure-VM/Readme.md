@@ -2,7 +2,7 @@
 
 ##objective
 
-create vm
+create vm 
 configure nsg
 restrict ssh from unkown ip -accept only from my ip
 
