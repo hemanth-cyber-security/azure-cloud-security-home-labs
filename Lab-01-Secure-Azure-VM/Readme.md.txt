@@ -3,7 +3,7 @@
 objective
 
 create vm
-configure nsg
+configure nsg,vnet
 restrict ssh from unkown ip -accept only from my ip
 
 ----------
@@ -11,7 +11,6 @@ restrict ssh from unkown ip -accept only from my ip
 steps performed
 
 created a Resource group - named -RG-securitylab
-
 created vNet - vnet-lab
 subnet
 
