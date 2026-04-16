@@ -79,7 +79,7 @@
 
 ---
 
-## 🔐 Identity-Based Access (RBAC)
+##  Identity-Based Access (RBAC)
 
 * Assigned roles at storage account level:
 
@@ -93,7 +93,7 @@
 
 ---
 
-## 🔑 Secure Sharing using SAS Token
+##  Secure Sharing using SAS Token
 
 * Generated SAS token for the blob
 
