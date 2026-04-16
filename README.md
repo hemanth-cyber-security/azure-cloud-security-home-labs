@@ -32,7 +32,7 @@ To become job-ready in Azure Cloud Security by:
 
 ##  Labs
 
-### 🔹 Lab 1 – Secure Virtual Machine Deployment
+###  Lab 1 – Secure Virtual Machine Deployment
 
 * Created VNet, Subnet, NSG, and VM
 * Restricted access to specific IP
@@ -40,6 +40,12 @@ To become job-ready in Azure Cloud Security by:
 * Implemented least privilege at network level
 
 ###  Lab2 - Identity and access management
+
+* Create and manage users in Microsoft Entra ID
+* Assign roles using RBAC
+* Validate access based on least privilege
+* Configure MFA and Conditional Access
+* Understand real-world MFA behavior and troubleshooting
 
 ---
 
