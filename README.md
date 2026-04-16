@@ -39,6 +39,8 @@ To become job-ready in Azure Cloud Security by:
 * Tested unauthorized access
 * Implemented least privilege at network level
 
+###  Lab2 - Identity and access management
+
 ---
 
 ##  Key Security Practices Implemented
