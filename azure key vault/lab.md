@@ -151,8 +151,7 @@ I’ve added screenshots for:
 ##  What I plan to do next
 
 * Try the same using **Managed Identity**
-* Create a detection scenario in Azure Sentinel
-* Simulate secret access abuse and monitor logs
+
 
 ---
 
